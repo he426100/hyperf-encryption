@@ -12,6 +12,7 @@ namespace HyperfExt\Encryption\Command;
 
 use Hyperf\Command\Command as HyperfCommand;
 use Hyperf\Contract\ConfigInterface;
+use function Hyperf\Support\call;
 
 class GenKeyCommand extends HyperfCommand
 {
